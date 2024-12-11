@@ -10,6 +10,15 @@ config_version=5
 
 [application]
 
-config/name="GodotRpgTutotrial"
-config/features=PackedStringArray("4.2", "Forward Plus")
+config/name="FantasyRPG"
+run/main_scene="res://Scenes/world.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/scale=4.0
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
